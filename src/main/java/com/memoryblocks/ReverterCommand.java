@@ -1,7 +1,5 @@
 package com.memoryblocks;
 
-// import org.bukkit.Bukkit;
-// import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -29,7 +27,7 @@ public class ReverterCommand implements CommandExecutor {
 
         int contador = 0;
         for (BlocoDestruido bloco : blocos) {
-            bloco.local.getBlock().setType(bloco.tipo);
+            bloco.getLocation().getBlock().setType(bloco.tipo);
             contador++;
         }
 
