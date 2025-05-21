@@ -1,0 +1,8 @@
+name: memoryblocks
+version: 1.0
+main: com.memoryblocks.App
+api-version: 1.20
+commands:
+  reverter:
+    description: Reverte blocos destruídos
+    usage: /reverter

@@ -1,0 +1,22 @@
+# Ignorar pasta de build
+/target/
+
+# Ignorar arquivos temporários de sistema
+*.log
+*.class
+*.iml
+*.DS_Store
+*.swp
+*.swo
+
+# Ignorar IDEs
+.idea/
+.vscode/
+
+# Ignorar arquivos de backup
+*.bak
+*.old
+*.tmp
+
+# Ignorar arquivos de configuração de ambiente local
+*.env
